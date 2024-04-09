@@ -119,18 +119,10 @@
         Base {
             label = "Base";
             bindings = <
-// ╭───────────────────────────────────────────────────────────────────────────────╮ ╭───────────────────────────────────────────────────────────────────────────────╮
-          &kp ESC       &kp N1       &kp N2       &kp N3       &kp N4       &kp N5           &kp N6       &kp N7       &kp N8       &kp N9       &kp N0    &kp MINUS
-// ├───────────────────────────────────────────────────────────────────────────────┤ ├───────────────────────────────────────────────────────────────────────────────┤
-          &kp TAB        &kp W        &kp L        &kp Y        &kp P        &kp B            &kp F        &kp J        &kp O        &kp U        &kp Q     &kp SEMI
-// ├───────────────────────────────────────────────────────────────────────────────┤ ├───────────────────────────────────────────────────────────────────────────────┤
-        &kp LSHFT        &kp C        &kp R        &kp S        &kp T        &kp G            &kp M        &kp N        &kp E        &kp I        &kp A     &kp APOS
-// ├───────────────────────────────────────────────────────────────────────────────┤ ├───────────────────────────────────────────────────────────────────────────────┤
-        &kp LCTRL     &kp LGUI  &lt MOUSE Z &lt SCROLL V        &kp D        &kp K            &kp X        &kp H    &MY_COMMA      &MY_DOT     &kp FSLH    &kp EQUAL
-// ╰───────────────────────────────────────────────────────────────────────────────┤ ├───────────────────────────────────────────────────────────────────────────────╯
-                                                &MY_CTRL    &MY_SPACE  &MY_FUN_NUM     &MY_NAV_BSPC  &MY_SYM_RET
-                                                              &MY_ALT      &MY_GUI          &kp DEL
-//                                        ╰────────────────────────────────────────╯ ╰───────────────────────────╯
+&to 0  &trans  &trans    &kp UP        &kp EQUAL  &trans               &bt BT_SEL 0          &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &to 4
+&to 3  &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &kp C_VOLUME_UP      &kp C_BRIGHTNESS_INC  &bt BT_CLR    &trans        &trans        &trans        &to 2
+&to 1  &trans  &trans    &out OUT_TOG  &trans     &kp C_VOLUME_DOWN    &kp C_BRI_DEC         &trans        &trans        &trans        &trans        &to 5
+                         &trans        &trans     &trans               &trans                &trans
             >;
         };
 
