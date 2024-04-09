@@ -119,10 +119,18 @@
         Base {
             label = "Base";
             bindings = <
-&to 1  &kp Q           &kp W           &kp E               &kp R             &kp T           &kp Y         &kp U              &kp I                &kp O                    &hm LG(LS(V)) P      &to 4
-&to 3  &hm LEFT_GUI A  &hm LEFT_ALT S  &hm LEFT_CONTROL D  &hm LEFT_SHIFT F  &kp G           &kp H         &hm RIGHT_SHIFT J  &hm RIGHT_CONTROL K  &hm RIGHT_ALT L          &as COLON SEMICOLON  &to 2
-&to 0  &kp Z           &kp X           &kp C               &kp V             &kp B           &kp N         &kp M              &as LESS_THAN COMMA  &as GREATER_THAN PERIOD  &as QUESTION SLASH   &to 5
-                                       &ltq 1 BACKSPACE    &ltq 3 TAB        &ltq 2 SPACE    &ltq 2 SPACE  &ltq 3 ENTER
+// ╭───────────────────────────────────────────────────────────────────────────────╮ ╭───────────────────────────────────────────────────────────────────────────────╮
+          &kp ESC       &kp N1       &kp N2       &kp N3       &kp N4       &kp N5           &kp N6       &kp N7       &kp N8       &kp N9       &kp N0    &kp MINUS
+// ├───────────────────────────────────────────────────────────────────────────────┤ ├───────────────────────────────────────────────────────────────────────────────┤
+          &kp TAB        &kp W        &kp L        &kp Y        &kp P        &kp B            &kp F        &kp J        &kp O        &kp U        &kp Q     &kp SEMI
+// ├───────────────────────────────────────────────────────────────────────────────┤ ├───────────────────────────────────────────────────────────────────────────────┤
+        &kp LSHFT        &kp C        &kp R        &kp S        &kp T        &kp G            &kp M        &kp N        &kp E        &kp I        &kp A     &kp APOS
+// ├───────────────────────────────────────────────────────────────────────────────┤ ├───────────────────────────────────────────────────────────────────────────────┤
+        &kp LCTRL     &kp LGUI  &lt MOUSE Z &lt SCROLL V        &kp D        &kp K            &kp X        &kp H    &MY_COMMA      &MY_DOT     &kp FSLH    &kp EQUAL
+// ╰───────────────────────────────────────────────────────────────────────────────┤ ├───────────────────────────────────────────────────────────────────────────────╯
+                                                &MY_CTRL    &MY_SPACE  &MY_FUN_NUM     &MY_NAV_BSPC  &MY_SYM_RET
+                                                              &MY_ALT      &MY_GUI          &kp DEL
+//                                        ╰────────────────────────────────────────╯ ╰───────────────────────────╯
             >;
         };
 
